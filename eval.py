@@ -12,7 +12,6 @@ from einops import rearrange
 from utils.load_configs import get_configs
 import imageio
 
-
 def get_mask(depth):
     mask = depth.copy()
     mask[mask > 0.646] = 0

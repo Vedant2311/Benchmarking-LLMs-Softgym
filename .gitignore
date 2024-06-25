@@ -4,5 +4,7 @@ __pycache__/
 # test folder
 eval result/
 data/
+old-data/
 train/trained model
 cached configs/
+tests/
